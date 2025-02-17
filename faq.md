@@ -19,14 +19,12 @@ Yes! You'll need a Bluesky account to use Flashes. Everything you post through F
 
 ## How does Flashes work with Bluesky?
 Flashes is built on Bluesky's AT Protocol and filters your Bluesky timeline for visual content. Comments and interactions on your Flashes posts will sync with Bluesky, and you'll have access to Bluesky's direct messaging system.
-
-## What are the Pro features?
+<!-- 
+## What are the upcomingPro features?
 The Pro subscription includes:
 - Rich push notifications
 - Bookmarks for saving favorite posts
-- Advanced filtering and muting options
-- Priority support
-Note: If you're already a Skeets Pro subscriber, you won't need to pay twice for premium features.
+- Advanced filtering and muting options -->
 
 ## Is my content private?
 It's important to understand that Bluesky is a public network where:
