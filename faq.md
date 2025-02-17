@@ -41,6 +41,12 @@ While you can use your existing account, we recommend creating a dedicated Blues
 ## What's your content policy?
 There is no tolerance for objectionable content or abusive users. We maintain strict community guidelines to ensure a safe and respectful environment.
 
+## Is Flashes available on Android?
+Not yet, but Android support is planned for the future! As Flashes is currently a one-person project, iOS development is the primary focus. Stay tuned for updates about Android availability.
+
+## Who's behind Flashes?
+Flashes is an independent project created and maintained by a single developer. This means updates and new features might take a bit longer to roll out, but it also ensures a focused, quality-first approach to development.
+
 ## Need more help?
 [Contact our support team](mailto:hi@flashes.blue) and we'll be happy to help!
 
