@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - AI Chat History</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>AI Chat History</h1>
+        </header>
+
+        <main>
+            {{ content }}
+        </main>
+
+        <footer class="footer">
+            <p>© {{ site.time | date: '%Y' }} AI Chat History. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html> 
