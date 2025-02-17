@@ -19,6 +19,7 @@ Yes! You'll need a Bluesky account to use Flashes. Everything you post through F
 
 ## How does Flashes work with Bluesky?
 Flashes is built on Bluesky's AT Protocol and filters your Bluesky timeline for visual content. Comments and interactions on your Flashes posts will sync with Bluesky, and you'll have access to Bluesky's direct messaging system.
+
 <!-- 
 ## What are the upcomingPro features?
 The Pro subscription includes:
@@ -46,6 +47,9 @@ Not yet, but Android support is planned for the future! As Flashes is currently 
 
 ## Who's behind Flashes?
 Flashes is an independent project created and maintained by a single developer. This means updates and new features might take a bit longer to roll out, but it also ensures a focused, quality-first approach to development.
+
+## How can I report bugs or request features?
+If you encounter any issues or have feature suggestions, please report them on our [GitHub Issues page](https://github.com/seabass/flashes/issues). This helps us track and address problems efficiently, and allows you to see if others have reported similar issues.
 
 ## Need more help?
 [Contact our support team](mailto:hi@flashes.blue) and we'll be happy to help!
