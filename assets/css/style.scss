@@ -3,8 +3,12 @@
 :root {
   --text-color: #1a1a1a;
   --background-color: #ffffff;
-  --accent-color: #1C6FB4;
-  --accent-color-dark: #4DC7FF;
+  --accent-color: #03466C;
+  --accent-color-dark: #0E83BB;
+  --gradient-start: #012662;
+  --gradient-middle: #004FCD;
+  --gradient-end: #1EBAFF;
+  --secondary-text: #666666;
 }
 
 body {
@@ -22,10 +26,28 @@ h1, h2, h3 {
   font-weight: 600;
 }
 
+.header {
+  background: linear-gradient(
+    to bottom,
+    var(--gradient-start),
+    var(--gradient-middle),
+    var(--gradient-end)
+  );
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+  margin: -2rem -2rem 3rem -2rem;
+  border-radius: 0 0 20px 20px;
+}
+
+.header h1, .header h2, .header h3 {
+  color: white;
+}
+
 a {
   color: var(--accent-color);
   text-decoration: none;
-  border-bottom: 1px solid var(--accent-color);
+  transition: opacity 0.2s;
 }
 
 a:hover {
@@ -37,16 +59,12 @@ a:hover {
   margin: 0 auto;
 }
 
-.header {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
 .footer {
-  margin-top: 3rem;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--secondary-text);
   text-align: center;
-  font-size: 0.9rem;
-  color: #666;
+  color: var(--secondary-text);
 }
 
 .footer-links {
@@ -74,6 +92,10 @@ a:hover {
     background-color: var(--background-color);
     color: var(--text-color);
   }
+  
+  .feature-card {
+    background: rgba(14, 131, 187, 0.15);
+  }
 }
 
 .features {
@@ -86,9 +108,31 @@ a:hover {
 .feature-card {
   padding: 1.5rem;
   border-radius: 12px;
-  background: rgba(28, 111, 180, 0.1);
+  background: rgba(3, 70, 108, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
   
   h3 {
     margin-top: 0;
   }
+}
+
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.button:hover {
+  background-color: var(--accent-color-dark);
+  transform: translateY(-1px);
+  opacity: 1;
 } 
