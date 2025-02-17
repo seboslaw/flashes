@@ -3,7 +3,8 @@
 :root {
   --text-color: #1a1a1a;
   --background-color: #ffffff;
-  --accent-color: #000000;
+  --accent-color: #1C6FB4;
+  --accent-color-dark: #4DC7FF;
 }
 
 body {
@@ -46,4 +47,48 @@ a:hover {
   text-align: center;
   font-size: 0.9rem;
   color: #666;
+}
+
+.footer-links {
+  margin-top: 1rem;
+  
+  a {
+    font-size: 0.8rem;
+    border-bottom: none;
+  }
+  
+  .divider {
+    margin: 0 0.5rem;
+    color: #666;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #ffffff;
+    --background-color: #1a1a1a;
+    --accent-color: var(--accent-color-dark);
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: rgba(28, 111, 180, 0.1);
+  
+  h3 {
+    margin-top: 0;
+  }
 } 

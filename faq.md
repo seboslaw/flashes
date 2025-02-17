@@ -5,19 +5,45 @@ title: FAQ
 
 # Frequently Asked Questions
 
-## What is AI Chat History?
-AI Chat History is an iOS app that helps you save and organize your ChatGPT conversations.
+## What is Flashes?
+Flashes is an iOS app (iPadOS coming soon) that lets you share and organize visual content on Bluesky. With a clean, minimalist interface, it's designed specifically for photo and video sharing within the Bluesky community.
 
-## Is my data private?
-Yes! All your conversations are stored locally on your device. We don't collect or store any of your chat data.
+## What can I share on Flashes?
+You can share:
+- Up to 4 photos in a single post
+- Videos up to 1 minute in length
+All content you share through Flashes will also appear on your Bluesky timeline.
 
-## How do I export my conversations?
-Simply tap the export button in any conversation to save it as a PDF or text file.
+## Do I need a Bluesky account?
+Yes! You'll need a Bluesky account to use Flashes. Everything you post through Flashes will appear on Bluesky, and your posts will be visible to the entire Bluesky community.
 
-## Can I search through my saved chats?
-Yes, you can search through all your saved conversations using the search bar at the top of the main screen.
+## How does Flashes work with Bluesky?
+Flashes is built on Bluesky's AT Protocol and filters your Bluesky timeline for visual content. Comments and interactions on your Flashes posts will sync with Bluesky, and you'll have access to Bluesky's direct messaging system.
 
-## How do I delete a conversation?
-Swipe left on any conversation in the list to delete it.
+## What are the Pro features?
+The Pro subscription includes:
+- Rich push notifications
+- Bookmarks for saving favorite posts
+- Advanced filtering and muting options
+- Priority support
+Note: If you're already a Skeets Pro subscriber, you won't need to pay twice for premium features.
+
+## Is my content private?
+It's important to understand that Bluesky is a public network where:
+- Posts and likes are public
+- Blocks and blocklists are public
+- Mutes are private, but mutelists and their subscriptions are public
+
+## Will I get notifications from both platforms?
+Yes. If you connect your existing Bluesky account, you'll receive notifications from both platforms. Since Flashes is focused on visual content, regular Bluesky text notifications might feel out of place.
+
+## Should I use my existing Bluesky account?
+While you can use your existing account, we recommend creating a dedicated Bluesky account for Flashes. This helps keep your photo and video sharing separate from your regular Bluesky activities.
+
+## What's your content policy?
+There is no tolerance for objectionable content or abusive users. We maintain strict community guidelines to ensure a safe and respectful environment.
+
+## Need more help?
+[Contact our support team](mailto:hi@flashes.blue) and we'll be happy to help!
 
 [Back to Home](index.html) 
