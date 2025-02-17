@@ -3,27 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - AI Chat History</title>
+    <title>{{ page.title }} - Flashes</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <!-- <header class="header">
-            <h1>AI Chat History</h1>
-        </header> -->
+        <header class="header">
+            <nav class="nav-container">
+                <div class="logo">
+                    <a href="/">Flashes</a>
+                </div>
+                <div class="nav-links">
+                    <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a>
+                    <a href="/faq.html" {% if page.url == "/faq.html" %}class="active"{% endif %}>FAQ</a>
+                    <a href="#" class="app-store-button">
+                        <i class="fab fa-app-store"></i> Download
+                    </a>
+                </div>
+            </nav>
+            {% if page.url == "/" %}
+            <div class="hero">
+                <h1>Share Your Moments on Bluesky</h1>
+                <p class="hero-subtitle">A beautiful, minimalist photo-sharing app for the Bluesky social network.</p>
+                <a href="#" class="cta-button">Download on the App Store</a>
+            </div>
+            {% endif %}
+        </header>
 
         <main>
             {{ content }}
         </main>
 
         <footer class="footer">
-            <p>© {{ site.time | date: '%Y' }} Birdsong Apps GmbH. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="https://www.flashes.blue/flashes/flashes-terms-and-conditions/">Terms & Conditions</a>
-                <span class="divider">|</span>
-                <a href="https://www.flashes.blue/flashes/flashes-privacy-policy/">Privacy Policy</a>
-                <span class="divider">|</span>
-                <a href="mailto:hi@flashes.blue">Contact us</a>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Flashes</h4>
+                    <p>A beautiful way to share photos on Bluesky</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <a href="/faq.html">FAQ</a>
+                    <a href="https://www.flashes.blue/flashes/flashes-terms-and-conditions/">Terms</a>
+                    <a href="https://www.flashes.blue/flashes/flashes-privacy-policy/">Privacy</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <a href="mailto:hi@flashes.blue">hi@flashes.blue</a>
+                    <a href="https://github.com/seabass/flashes/issues">Report Issues</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© {{ site.time | date: '%Y' }} Birdsong Apps GmbH. All rights reserved.</p>
             </div>
         </footer>
     </div>
